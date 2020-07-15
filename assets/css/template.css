@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header da página*/
+header{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: #252525;
+    box-shadow: 6px 6px 8px rgba(245, 0, 0, 0.9);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1366px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    margin-right: 40px;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 40px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+}
+nav .active a,
+nav a:hover{
+    color: #ffffff;
+    background-color: #ff1743;
+}
+/*Fim do header da página*/
+
+/*Início do banner da página*/
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(/assets/images/toyotaimg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 790px;
+}
+.collum{
+    flex-direction: column;
+}
+.banner-headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-headline h1{
+    color: #ff0000;
+    font-size: 50px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 2px 3px #fff;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+}
+.banner-headline h2{
+    color: #ff0000;
+    font-size: 20px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-shadow: 0px 2px 3px #fff;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    margin-top: 30px;
+}
+.banner-options{
+    height: 210px;
+    display: flex;
+}
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+.banner1{
+    background-color: #ff0000;
+}
+.banner2{
+    background-color: #af0404;
+}
+.banner3{
+    background-color: #680202;
+}
+.banner-title{
+    font-size: 21px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.banner-desc{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+.banner-options a{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+.dia1,
+.dia2,
+.dia3{
+    border-bottom: gray solid 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+/*Fim do banner da página*/
+
+/*Início do conteúdo da página*/
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+.widget-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget-title-text{
+    color: #000000;
+    font-size: 21px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.widget-title-bar{
+    width: 50px;
+    height: 3px;
+    background-color: #ff0000;
+    margin-top: 10px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+article a {
+    text-decoration: none;
+}
+article .news-data{
+    display: flex;
+}
+article .news-posted-at{
+    background-color: #680202;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+article .news-comments{
+    background-color: #ff0000;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
+article .news-thumbmail{
+    margin-top: 30px;
+}
+article .news-thumbmail img{
+    width: 100%;
+    height: auto;
+}
+article .news-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+article .news-resume{
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.quadrados_corpo_lateral{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+.logos{
+    margin-bottom: 20px;
+    display: flex;
+}
+.informacoes_lateral{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.texto_lateral{
+    padding-bottom: 10px;
+}
+.telefone,
+.email,
+.fax{
+    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.imagens_lateral{
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+}
+/*Inicio do footer*/
+footer{
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+}
+.footer-menu{
+    display: flex;
+}
+.fm-1, .fm-2, .fm-3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+.fm-1{
+    background-color: #ff0000;
+}
+.fm-2{
+    background-color: #af0404;
+}
+.fm-3{
+    background-color: #680202;
+}
+.footer-menu a{
+    display: block;
+    text-decoration: none;
+}
+.footer-area{
+    display: flex;
+}
+.footer-areaitem{
+    flex: 1;
+    color: #fff;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.flexCollum{
+    flex-direction: column;
+}
+footer .widget-title-text{
+    color: #fff;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.footer-copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
